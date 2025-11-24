@@ -5,21 +5,6 @@ WebdriverIO + TypeScript + App Action Pattern + API tests + Allure Reports + Bro
 This repository contains a modern, scalable end-to-end automation framework combining UI and API testing.
 It follows the App Action Pattern, uses TypeScript, supports cloud execution on BrowserStack, and generates advanced Allure Reports.
 
-📂 Project Structure
-.
-├── test
-│ ├── ui
-│ │ ├── pages/ # Page Objects (UI selectors only)
-│ │ ├── actions/ # App Action Pattern (test business logic)
-│ │ ├── assertions/ # Business assertions
-│ │ └── specs/ # UI test cases
-│ ├── api
-│ │ ├── utils/ # axios apiClient setup
-│ │ └── specs/ # API test cases
-├── wdio.conf.ts # Local WebdriverIO configuration
-├── wdio.browserstack.conf.js # BrowserStack configuration
-├── tsconfig.json
-└── package.json
 
 - Tech Stack
   Technology Purpose
